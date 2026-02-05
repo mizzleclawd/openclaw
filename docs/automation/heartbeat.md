@@ -97,8 +97,8 @@ Multiple agents share context via a common data store:
 ```
 shared-brain/
 ├── handoffs/      # Agent-to-agent communication
-├── projects/      # Active projects
-├── tasks/         # Task tracking
+├── projects/       # Active projects
+├── tasks/          # Task tracking
 └── agents/        # Agent SOUL files
 ```
 
@@ -114,7 +114,7 @@ The agent receives the notification on their next heartbeat.
 
 ### Task Routing
 
-```markdown
+```
 Request comes in
        ↓
 Route to right agent
